@@ -1,0 +1,188 @@
+body{
+    background-color: #161717;
+}
+
+h3{
+    color: white;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    width: 450px;
+    
+}
+
+.buttons{
+    display: flex;
+    align-self: flex-start;
+    gap: 20px;
+   }
+
+.google-btn {
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    background-color: #1a73eb;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.google-btn:hover{
+    opacity: 0.6;
+}
+
+.google-btn picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.google-btn picture img{
+    width: 75%;
+   
+}
+
+
+
+.google-btn span{
+    color: white;
+    font-weight: 500;
+    padding: 15px ;
+}
+.instagram-btn{
+    color: #ccc;
+    background-color: #eee;
+    border:none;
+    width: 40px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.instagram-btn:hover{
+    background-color: #ddd;
+
+}
+
+.separador{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    color: white;
+   
+}
+
+.separador hr {
+    flex-grow: 1;
+   
+}
+
+
+form{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    color: white;
+}
+.section-input{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    gap:50px;
+}
+
+
+label {
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+}
+
+label span{
+    font-weight: 700;
+}
+
+.selection-label label input{
+    width: 80%;
+    background-color:  #cecece;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+
+label input{
+    width: 100%;
+    background-color:  #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s,border 0.2s ,box-shadow 0.2s;
+}
+
+label input:hover{
+    background-color:#454045;
+    border: solid 1px #3907f1;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+
+label input:focus{
+    background-color: #454045;
+    border: solid 1px #f3f4f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+
+.checkbox-label{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.checkbox-label input[type="checkbox"]{
+    width:20px;
+}
+
+.checkbox-label span {
+    font-weight:400px;
+
+}
+
+.submit-btn {
+    width: 110%;
+    background-color: #ea4c89;
+    color: white;
+    font-size: 16pt;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  
+}
+
+.submit-btn:hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+ 
